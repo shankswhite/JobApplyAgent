@@ -1,0 +1,9 @@
+# Pipeline
+
+> Copy this to `data/pipeline.md` (gitignored). This is the soft-funnel
+> view — roles you're researching but haven't decided to apply for yet.
+> Promote rows to `data/applications.md` once you've evaluated them.
+
+| Date | Company | Role | URL | Stage | Notes |
+|------|---------|------|-----|-------|-------|
+| 2026-04-26 | ExampleCo | Senior ML Engineer | https://example.com/jobs/123 | Researching | Read JD; needs salary check |

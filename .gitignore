@@ -1,0 +1,56 @@
+# Personal data (user fills these — copy from `.template` files first)
+cv.md
+data/applications.md
+data/pipeline.md
+data/scan-history.tsv
+data/section-g-boilerplate.md
+data/form-answers-cache.json
+data/unanswered-*.md
+reports/*.md
+!reports/.gitkeep
+output/*
+!output/.gitkeep
+batch/logs/*
+!batch/logs/.gitkeep
+batch/batch-state.tsv
+batch/batch-input.tsv
+batch/tracker-additions/**/*.tsv
+!batch/tracker-additions/.gitkeep
+jds/*
+!jds/.gitkeep
+
+# User config and customization (never auto-updated)
+config/profile.yml
+portals.yml
+modes/_profile.md
+scripts/jd-configs.json
+.update-dismissed
+.update-lock
+
+# Secrets (never commit — use .env.example as template)
+.env
+
+# Playwright session state for ATS portals that require login (Workday, Taleo,
+# iCIMS, LinkedIn, etc.). Treat as credentials. Saved by `node scripts/apply-form.mjs <id> --login`.
+.auth/
+
+# Generated
+.resolved-prompt-*
+node_modules/
+bun.lock
+.tmp-html/
+
+# OS
+.DS_Store
+*.mov
+*.mp4
+
+# Claude Code local
+.claude/settings.local.json
+.claude/memory/
+career-dashboard
+package-lock.json
+
+# Local Go toolchain + built binaries (not part of the repo)
+.toolchain/
+bin/

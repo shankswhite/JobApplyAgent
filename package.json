@@ -1,0 +1,50 @@
+{
+  "name": "job-apply-agent",
+  "version": "0.1.0",
+  "description": "The most powerful job apply bot — dynamic ATS form auto-fill, learning cache, cover letter generation. Pairs with Hermes (email triggers) and OpenClaw (computer-use submit) for end-to-end recruiter-email-to-applied automation.",
+  "scripts": {
+    "doctor": "node doctor.mjs",
+    "verify": "node verify-pipeline.mjs",
+    "normalize": "node normalize-statuses.mjs",
+    "dedup": "node dedup-tracker.mjs",
+    "merge": "node merge-tracker.mjs",
+    "pdf": "node generate-pdf.mjs",
+    "sync-check": "node cv-sync-check.mjs",
+    "update:check": "node update-system.mjs check",
+    "update": "node update-system.mjs apply",
+    "rollback": "node update-system.mjs rollback",
+    "liveness": "node check-liveness.mjs",
+    "scan": "node scan.mjs",
+    "gemini:eval": "node gemini-eval.mjs",
+    "apply": "node scripts/apply-form.mjs",
+    "apply:batch": "node scripts/apply-batch.mjs",
+    "apply:probe": "node scripts/probe-form.mjs",
+    "apply:learn": "node scripts/learn-answers.mjs",
+    "apply:cover-letter": "node scripts/render-cover-letter.mjs"
+  },
+  "keywords": [
+    "ats",
+    "auto-fill",
+    "playwright",
+    "job-search",
+    "greenhouse",
+    "ashby",
+    "lever",
+    "workday",
+    "computer-use",
+    "ai-agent"
+  ],
+  "author": "Levon Zhao",
+  "homepage": "https://github.com/shankswhite/JobApplyAgent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shankswhite/JobApplyAgent"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.1",
+    "playwright": "^1.58.1"
+  }
+}

@@ -1,0 +1,66 @@
+name: "I Got Hired!"
+description: Share your success story — you landed a job using JobApplyAgent
+labels: ["hired"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Congrats on the new role! Your story helps others see what's possible.
+  - type: input
+    id: role
+    attributes:
+      label: What role did you land?
+      placeholder: "e.g., Senior Backend Engineer, Product Manager, ML Engineer"
+    validations:
+      required: true
+  - type: input
+    id: company_type
+    attributes:
+      label: Company type
+      placeholder: "e.g., startup, big tech, agency, remote-first"
+  - type: textarea
+    id: story
+    attributes:
+      label: Your story
+      description: How did JobApplyAgent help? What features made the difference?
+      placeholder: "e.g., the auto-fill engine cut my application time from 20 min to 2 min, the cache learned 30+ recurring questions across roles..."
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Most useful feature
+      options:
+        - Auto-fill engine (apply-batch.mjs)
+        - Cover letter PDF generation
+        - Learning cache (form-answers-cache.json)
+        - Layered answer resolver (boilerplate / Section G / cache)
+        - Multi-entry education (Add another)
+        - Conditional field handling (Race after Hispanic/Latino)
+        - Async typeahead combobox polling
+        - Upstream career-ops eval / scoring
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: listings_evaluated
+    attributes:
+      label: How many listings did you evaluate?
+      placeholder: "e.g., 30, 100, 500+"
+  - type: input
+    id: time_to_hire
+    attributes:
+      label: Time from first scan to offer
+      placeholder: "e.g., 2 weeks, 1 month, 3 months"
+  - type: textarea
+    id: advice
+    attributes:
+      label: One tip for others
+      description: What would you tell someone just starting their job search with JobApplyAgent?
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Permission
+      options:
+        - label: I'm okay with my story being featured in the README and release notes
+          required: false

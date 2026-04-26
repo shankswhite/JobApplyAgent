@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/shankswhite/JobApplyAgent/discussions
+    about: For ideas, Q&A, and community conversations on the auto-fill engine.
+  - name: Upstream career-ops community
+    url: https://github.com/santifer/career-ops/discussions
+    about: For questions about the upstream eval / scan / CV-render layers.

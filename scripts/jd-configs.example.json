@@ -1,0 +1,47 @@
+[
+  {
+    "id": "001",
+    "slug": "acme-mle-platform",
+    "company": "Acme",
+    "role": "Machine Learning Engineer, Platform",
+    "format": "letter",
+    "experience_skip": [
+      "<company name to drop from the tailored CV>"
+    ],
+    "summary": "<3–4 line keyword-injected summary, **bold** the things you want a recruiter to skim. Mention the candidate's strongest signal for THIS role — relevant systems, evaluation work, scale, certifications.>",
+    "competencies": [
+      "<Competency 1>",
+      "<Competency 2>",
+      "<Competency 3>",
+      "<Competency 4>"
+    ],
+    "project_priority": [
+      "<project-slug-1>",
+      "<project-slug-2>"
+    ],
+    "skills_skip": [
+      "<Skills category to omit, e.g. 'Game / engines / graphics' for non-game roles>"
+    ],
+    "experience_bullets_default": 4,
+    "bullet_caps": {
+      "<Older Co name>": 2
+    },
+    "course_overrides": [
+      {
+        "match": "<regex matching school 1's org name in cv.md, e.g. 'state university|state\\b'>",
+        "courses": [
+          "<Course 1>",
+          "<Course 2>",
+          "<Course 3>"
+        ]
+      },
+      {
+        "match": "<regex matching school 2's org name in cv.md>",
+        "courses": [
+          "<Course 1>",
+          "<Course 2>"
+        ]
+      }
+    ]
+  }
+]

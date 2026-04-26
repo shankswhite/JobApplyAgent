@@ -1,0 +1,9 @@
+# Applications Tracker
+
+> Copy this file to `data/applications.md` (gitignored) before first run.
+> The auto-fill engine reads `Evaluated` rows; `--all` and `--tier1` filters
+> live in `scripts/apply-batch.mjs`.
+
+| # | Date | Company | Role | Score | Status | PDF | Report | Notes |
+|---|------|---------|------|-------|--------|-----|--------|-------|
+| 1 | 2026-04-26 | ExampleCo | Senior ML Engineer | 4.5/5 | Evaluated | ✅ | [001](reports/001-exampleco-mle-2026-04-26.md) | One-line role memo: comp band / location / fit angle / blockers |

@@ -1,0 +1,62 @@
+# {{FULL_NAME}}
+
+**{{CITY_STATE}}** · {{PHONE}} · {{EMAIL}}
+[LinkedIn]({{LINKEDIN_URL}}) · [GitHub]({{GITHUB_URL}}) · [Portfolio]({{PORTFOLIO_URL}})
+
+## Summary
+
+A 2-5 sentence summary of who you are, what you've shipped, and what you're
+looking for. Keep it dense — recruiters spend 6-15 seconds on this. Bold
+the keywords that match the kinds of roles you want.
+
+## Achievements
+
+- **Top achievement #1** (e.g. publication, certification, hackathon win)
+- **Top achievement #2**
+- **Top achievement #3**
+
+## Education
+
+| Degree | School | Dates | GPA |
+|--------|--------|-------|-----|
+| MS Computer Science | School Name | Aug 2023 – May 2026 | 3.9 / 4.0 |
+| BS Field | School Name | Aug 2019 – May 2023 | 3.8 / 4.0 |
+
+## Experience
+
+### Role · Company — Dates
+
+- **Bullet 1**: action verb + scope + measurable outcome (e.g. "Shipped
+  PB-scale anomaly-detection pipeline on Databricks/Azure across 50+ KPIs;
+  cut analyst response time 40%+").
+- **Bullet 2**: ...
+- **Bullet 3**: ...
+
+### Role · Company — Dates
+
+- ...
+
+## Projects
+
+### Project Name — [demo]({{PROJECT_URL}}) / [repo]({{REPO_URL}})
+
+One-line pitch. Stack: tech1, tech2, tech3.
+
+- Bullet describing what you built
+- Bullet describing impact / metrics
+
+## Publications
+
+- **Paper title** — Conference / Journal Year. [link]()
+
+## Skills
+
+- **Languages**: ...
+- **AI / ML**: ...
+- **Cloud / Infra**: ...
+- **Frontend**: ...
+
+---
+
+After filling this in, copy to `cv.md` (gitignored). The template stays
+checked in for new contributors.

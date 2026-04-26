@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use JobApplyAgent, please cite it using these metadata."
+title: "JobApplyAgent: The Most Powerful Job Apply Bot"
+type: software
+authors:
+  - family-names: "Zhao"
+    given-names: "Levon"
+    website: "https://github.com/shankswhite"
+url: "https://github.com/shankswhite/JobApplyAgent"
+repository-code: "https://github.com/shankswhite/JobApplyAgent"
+license: MIT
+keywords:
+  - ats
+  - auto-fill
+  - playwright
+  - job-search
+  - greenhouse
+  - ashby
+  - lever
+  - workday
+  - computer-use
+  - ai-agent
+references:
+  - type: software
+    title: "Career-Ops: AI-Powered Job Search Pipeline"
+    authors:
+      - family-names: "Fernández de Valderrama"
+        given-names: "Santiago"
+    repository-code: "https://github.com/santifer/career-ops"
+    license: MIT
+    notes: "Upstream project. JobApplyAgent forks career-ops and adds the auto-fill engine."

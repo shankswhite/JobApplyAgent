@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "_comment": "Locally-learned answers from past application sessions. Auto-updated by scripts/apply-batch.mjs and scripts/learn-answers.mjs. Each entry: question_pattern (the exact label seen on the form), answer (full answer for free-text fields), answer_combobox (optional shorter form for Yes/No or single-token selects), source (where the answer was learned), learned_at. Copy this template to data/form-answers-cache.json (gitignored) before first use; the engine will append learned answers automatically as you fill forms.",
+  "updated_at": "2026-04-26",
+  "entries": []
+}
